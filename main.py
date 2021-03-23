@@ -1,3 +1,5 @@
+#Не читать - еще не готово!!!
+
 import functools
 def i():
     return str(input('Input:'))
@@ -11,4 +13,4 @@ print(s1)
 def num_compare(x,y):
     return y - x
 
-print(sorted([4, 43, 1, 22], key=functools.cmp_to_key(num_compare)))
+#print(sorted([4, 43, 1, 22], key=functools.cmp_to_key(num_compare)))
